@@ -3,15 +3,39 @@
 \usepackage[utf8]{inputenc}%
 \usepackage{lmodern}%
 \usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{geometry}%
+\geometry{margin=0.7in}%
+\usepackage{fancyhdr}%
 %
 \title{7 WONDERS}%
 \author{Cyril Lapierre}%
 \date{\today}%
+\fancypagestyle{header}{%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyhead{%
+}%
+\fancyfoot{%
+}%
+\fancyhead[L]{%
+\today%
+}%
+\fancyhead[C]{%
+QuickBGR%
+}%
+\fancyhead[R]{%
+Page \thepage\ of \pageref{LastPage}%
+}%
+\fancyfoot[C]{%
+QuickBGR%
+}%
+}%
 %
 \begin{document}%
-\pagestyle{empty}%
 \normalsize%
 \maketitle%
+\pagestyle{header}%
 \section{ Intro}%
 \label{sec:Intro}%
 Vous avez 3 âges pour développer une grande cité du monde antique et construire une des 7 merveilles du%
