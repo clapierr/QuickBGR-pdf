@@ -1,0 +1,143 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{geometry}%
+\geometry{margin=0.7in}%
+\usepackage{fancyhdr}%
+%
+\title{Skyjo}%
+\author{Cyril Lapierre}%
+\date{\today}%
+\fancypagestyle{header}{%
+\renewcommand{\headrulewidth}{1pt}%
+\renewcommand{\footrulewidth}{1pt}%
+\fancyhead{%
+}%
+\fancyfoot{%
+}%
+\fancyhead[L]{%
+Page \thepage %
+}%
+\fancyhead[C]{%
+QuickBGR%
+}%
+\fancyhead[R]{%
+\today%
+}%
+\fancyfoot[C]{%
+QuickBGR%
+}%
+}%
+%
+\begin{document}%
+\normalsize%
+\maketitle\thispagestyle{header}%
+\pagestyle{header}%
+\section{ Mise en place}%
+\label{sec:Miseenplace}%
+\begin{itemize}%
+\item%
+%
+ Chaque joueur reçoit 12 cartes face cachée.%
+\item%
+%
+ Avec vos 12 cartes toujours face cachée, constituez un tableau de 4 colonnes de 3 cartes.%
+\item%
+%
+ Retournez face visible, 2 des 12 cartes de votre tableau.%
+\item%
+%
+ Formez une pioche avec les cartes restantes.%
+\item%
+%
+ Révélez la première carte de la pioche, elle constitue le début de la pile de défausse.%
+\item%
+%
+ Le joueur, dont la somme des 2 cartes visibles est la plus élevée, commence la partie%
+\end{itemize}
+
+%
+\section{ Tour de jeu}%
+\label{sec:Tourdejeu}%
+LE JEU SE DÉROULE EN PLUSIEURS MANCHES SUCCESSIVES. À CHAQUE TOUR UN JOUEUR DOIT CHOISIR UNE CARTE ENTRE LA DÉFAUSSE OU LA PIOCHE.
+
+%
+\subsection{ PRENDRE LA PREMIÈRE CARTE RETOURNÉE DE LA DÉFAUSSE}%
+\label{subsec:PRENDRELAPREMIRECARTERETOURNEDELADFAUSSE}%
+Vous devez immédiatement échanger cette carte avec l’une de vos 12 cartes (visible ou cachée) :%
+\begin{itemize}%
+\item%
+%
+ La nouvelle carte est posée face visible.%
+\item%
+%
+ L'ancienne carte est déposée sur le dessus de la pile de défausse, face visible.%
+\end{itemize}%
+Vous ne pouvez pas regarder vos cartes cachées avant de faire un échange.
+
+%
+\subsection{ PRENDRE LA PREMIÈRE CARTE FACE CACHÉE DE LA PIOCHE}%
+\label{subsec:PRENDRELAPREMIRECARTEFACECACHEDELAPIOCHE}%
+Une fois la carte piochée, vous pouvez au choix :%
+\begin{itemize}%
+\item%
+%
+ L'échanger contre l'une de vos 12 cartes (visible ou cachée).%
+\item%
+%
+ La déposer sur le dessus de la pile de défausse car elle ne vous intéresse pas. Dans ce cas, vous devez retourner face visible une de vos cartes cachées.%
+\end{itemize}
+
+%
+\subsection{ RÈGLE SPÉCIALE}%
+\label{subsec:RGLESPCIALE}%
+Si suite à un échange ou après avoir révélé une carte face cachée, vous possédez 3 cartes identiques dans une colonne, retirez ces 3 cartes de votre tableau et placez{-}les sur la défausse
+
+%
+\section{ Fin de la manche}%
+\label{sec:Findelamanche}%
+Le premier joueur à révéler toutes ses cartes (toutes les cartes sont face visible), met fin à la manche.%
+\begin{itemize}%
+\item%
+%
+ Finissez le tour en cours.%
+\item%
+%
+ Les joueurs ayant encore des cartes face cachée les retournent face visible. Appliquez la Règle spéciale des 3 cartes identiques si le cas se présente.%
+\item%
+%
+ Chaque joueur comptabilise son total de points en ajoutant toutes les valeurs des cartes visibles dans son tableau :%
+\end{itemize}%
+\begin{description}%
+\item[{-} ]%
+%
+Si le total de points est positif, vous devez le rajouter à votre total de points des manches précédentes.%
+\end{description}%
+\begin{itemize}%
+\item%
+%
+ Si le total est négatif, vous devez le soustraire à votre total de points des manches précédentes.%
+\end{itemize}%
+\begin{description}%
+\item[{-} ]%
+%
+Si le joueur qui a terminé la manche, n’a pas strictement obtenu le plus petit nombre de points de cette manche,alors, la somme de ses points pour cette manche est doublée.%
+\end{description}
+
+%
+\section{ Fin de la partie}%
+\label{sec:Findelapartie}%
+\begin{description}%
+\item[{-} ]%
+%
+ Le jeu se termine dès qu’un joueur atteint 100 points ou plus.%
+\item[{-} ]%
+%
+ Le joueur avec le plus petit score gagne la partie.%
+\end{description}
+
+%
+\end{document}
