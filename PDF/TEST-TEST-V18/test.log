@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.6)  7 MAR 2023 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.6)  7 MAR 2023 18:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **"c:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/QuickBGR-pdf/PDF/TE
-ST-TEST-V2/test.tex"
+ST-TEST-V18/test.tex"
 
 (c:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/QuickBGR-pdf/PDF/TEST
--TEST-V2/test.tex
+-TEST-V18/test.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -179,14 +179,18 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-! Undefined control sequence.
-l.37 \userpackage
-                 {sectsty}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \usepackage
+                {sectsty}%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [1
 
@@ -258,12 +262,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  1724 strings out of 476024
- 28914 string characters out of 5794017
+ 28917 string characters out of 5794017
  1852382 words of memory out of 5000000
  22191 multiletter control sequences out of 15000+600000
  539076 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,62p,265b,279s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,62p,266b,279s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2022/tex
 mf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type
 1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.p

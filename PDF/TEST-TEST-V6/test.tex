@@ -6,9 +6,10 @@
 \usepackage{lastpage}%
 \usepackage{geometry}%
 \geometry{margin=0.7in}%
-\usepackage{xcolor}%
 \usepackage{fancyhdr}%
 %
+\usepackage{sectsty}%
+\usepackage{xcolor}%
 \title{test}%
 \author{test}%
 \date{\today}%
@@ -37,18 +38,17 @@ QuickBGR%
 \normalsize%
 \maketitle\thispagestyle{header}%
 \pagestyle{header}%
+\sectionfont{\color{blue}}%
 \section{ Set up}%
 \label{sec:Setup}%
-\textcolor{blue}{%
-\textbf{jez}%
-}%
-
 
 %
+\sectionfont{\color{green}}%
 \section{ Round of play}%
 \label{sec:Roundofplay}%
 
 %
+\sectionfont{\color{red}}%
 \section{ End of game}%
 \label{sec:Endofgame}%
 
