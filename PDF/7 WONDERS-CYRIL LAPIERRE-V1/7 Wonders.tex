@@ -1,4 +1,4 @@
-\documentclass{article}%
+\documentclass{scrartcl}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
 \usepackage{lmodern}%
@@ -6,12 +6,16 @@
 \usepackage{lastpage}%
 \usepackage{geometry}%
 \geometry{margin=0.7in}%
+\usepackage{xcolor}%
 \usepackage{fancyhdr}%
 %
 \usepackage{sectsty}%
-\title{7 WONDERS No color}%
+\usepackage{graphicx}%
+\usepackage{xcolor}%
+\definecolor{mygreen}{RGB}{58,170,53}%
+\title{\includegraphics[width=8cm,height=4cm,keepaspectratio]{C:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/2223_INFOB318_QuickBGR/code/my_app/static/img/tmp/Box-7 Wonders.jpg}\break 7 Wonders }%
 \author{Cyril Lapierre}%
-\date{\today}%
+\date{\today \break Tags: Ancient, Card Game, City Building, Civilization, Economic}%
 \fancypagestyle{header}{%
 \renewcommand{\headrulewidth}{1pt}%
 \renewcommand{\footrulewidth}{1pt}%
@@ -23,13 +27,13 @@
 Page \thepage%
 }%
 \fancyhead[C]{%
-QuickBGR%
+\includegraphics[width=4cm,height=1cm,keepaspectratio]{C:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/2223_INFOB318_QuickBGR/code/my_app/static/img/logo/QuickBGR-black-green.png}%
 }%
 \fancyhead[R]{%
 \today%
 }%
 \fancyfoot[C]{%
-QuickBGR%
+\includegraphics[width=4cm,height=1cm,keepaspectratio]{C:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/2223_INFOB318_QuickBGR/code/my_app/static/img/logo/QuickBGR-black-green.png}%
 }%
 }%
 %
@@ -37,37 +41,55 @@ QuickBGR%
 \normalsize%
 \maketitle\thispagestyle{header}%
 \pagestyle{header}%
+\sectionfont{\color{blue}}%
+\subsectionfont{\color{blue}}%
+\subsubsectionfont{\color{blue}}%
 \section{ Intro}%
 \label{sec:Intro}%
-\rule{18cm}{0.07cm}\break%
+\textcolor{blue}{\rule{18cm}{0.07cm}}\break%
 Vous avez 3 âges pour développer une grande cité du monde antique et construire une des 7 merveilles du%
 monde. à l’aide de vos cartes, développez le côté militaire ou scientifique de votre ville. Mettez en valeur%
 votre cité en construisant des bâtiments prestigieux, sans oublier de développer votre économie.%
 Gérez au mieux votre cité et laissez une trace dans l'histoire...
 
 %
+\sectionfont{\color{mygreen}}%
+\subsectionfont{\color{mygreen}}%
+\subsubsectionfont{\color{mygreen}}%
 \section{ Mise en place}%
 \label{sec:Miseenplace}%
-\rule{18cm}{0.07cm}\break%
+\textcolor{mygreen}{\rule{18cm}{0.07cm}}\break%
+%
+\includegraphics[width=3cm,height=3cm,keepaspectratio]{C:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/2223_INFOB318_QuickBGR/code/my_app/static/img/tmp/1.jpg}%
+%
+%
 \begin{enumerate}%
 \item%
 %
  Enlevez les %
+\textcolor{mygreen}{%
 \textbf{cartes non{-}utilisées}%
+}%
 , selon le nombre de joueurs (chiffre en bas de la carte).%
 \item%
 %
  %
+\textcolor{mygreen}{%
 \textbf{Guilde}%
+}%
 \textit{ }%
  : Dans le paquet de l'%
+\textcolor{mygreen}{%
 \textbf{Âge 3}%
+}%
 \textit{ }%
  : ajoutez le nombre de Guildes (8 cartes face recto violet) selon le nombre de joueurs (nombre de joueurs + 2).%
 \item%
 %
  Faites un tas avec les 3 sortes de %
+\textcolor{mygreen}{%
 \textbf{jetons Militaires}%
+}%
 \textit{ }%
  (rouges).%
 \end{enumerate}%
@@ -78,16 +100,30 @@ Chaque joueur reçoit :%
  1 carte Merveille%
 \item%
 %
- 3 pièces d’or%
+ 3 pièces d’or %
+\includegraphics[width=1cm,height=1cm,keepaspectratio]{C:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/2223_INFOB318_QuickBGR/code/my_app/static/img/tmp/2.jpg}%
+%
+%
 \item%
 %
  7 cartes de l'Âge 1%
-\end{itemize}
+\end{itemize}%
+%
+\includegraphics[width=4cm,height=4cm,keepaspectratio]{C:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/2223_INFOB318_QuickBGR/code/my_app/static/img/tmp/3.jpg}%
+%
+
 
 %
+\sectionfont{\color{red}}%
+\subsectionfont{\color{red}}%
+\subsubsectionfont{\color{red}}%
 \section{ Tour de jeu}%
 \label{sec:Tourdejeu}%
-\rule{18cm}{0.07cm}\break%
+\textcolor{red}{\rule{18cm}{0.07cm}}\break%
+%
+\includegraphics[width=2cm,height=2cm,keepaspectratio]{C:/Users/badcy/Documents/Unif/BAC 3/Q1/Projet individuel/2223_INFOB318_QuickBGR/code/my_app/static/img/tmp/4.jpg}%
+%
+%
 Une partie se joue en 3 âges représentés par 3 piles de cartes numérotés I, II et III. Pour chaque âge, procédez comme suit :
 
 %
@@ -97,7 +133,9 @@ Une partie se joue en 3 âges représentés par 3 piles de cartes numérotés I,
 \item[{-} ]%
 %
  Choisissez 1 %
+\textcolor{red}{%
 \textbf{carte}%
+}%
 \textit{ }%
  parmi les cartes que vous avez en main.%
 \end{description}
@@ -110,7 +148,9 @@ Il y a 3 actions possibles avec cette carte :%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{CONSTRUIRE LE BÂTIMENT}%
+}%
 \textit{ }%
  :%
 \end{description}%
@@ -118,7 +158,9 @@ Il y a 3 actions possibles avec cette carte :%
 \item%
 %
  Le coût de construction est indiqué par un nombre de ressources à dépenser (à gauche de la carte). Si la zone est %
+\textcolor{red}{%
 \textbf{vide}%
+}%
 , la carte est gratuite.%
 \item%
 %
@@ -126,7 +168,9 @@ Il y a 3 actions possibles avec cette carte :%
 \item%
 %
  Si vous possèdez déjà un Bâtiment avec le même %
+\textcolor{red}{%
 \textbf{symbole}%
+}%
 \textit{ }%
  que celui illustré à côté du coût , vous ne payez rien (Chaînage).%
 \item%
@@ -145,7 +189,9 @@ Il y a 3 actions possibles avec cette carte :%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{CONSTRUIRE UNE ÉTAPE DE SA MERVEILLE}%
+}%
 \textit{ }%
  :%
 \end{description}%
@@ -159,7 +205,9 @@ Il y a 3 actions possibles avec cette carte :%
 \textit{verso}%
 \textit{ }%
  visible sous l’emplacement %
+\textcolor{red}{%
 \textbf{libre}%
+}%
 \textit{ }%
  le plus à gauche de votre Merveille.%
 \end{itemize}%
@@ -167,7 +215,9 @@ Il y a 3 actions possibles avec cette carte :%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{DÉFAUSSER LA CARTE POUR OBTENIR 3 PIÈCES D’OR.}%
+}%
 %
 \end{description}
 
@@ -190,7 +240,9 @@ Il y a 3 actions possibles avec cette carte :%
 \item[{-} ]%
 %
  Résolvez les conflits Militaires : Comparez le nombre de %
+\textcolor{red}{%
 \textbf{Boucliers}%
+}%
 \textit{ }%
  dans votre Cité avec celui de vos voisins de droite et de gauche.%
 \item[{-} ]%
@@ -199,49 +251,65 @@ Il y a 3 actions possibles avec cette carte :%
 \textit{{-}1 point}%
 ) si votre total est inférieur. En cas d'égalité, aucun jeton n’est pris.%
 \end{description}%
+\textcolor{red}{%
 \textbf{DESCRIPTION DES CARTES}%
+}%
 %
 \begin{description}%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{Cartes marron}%
+}%
 \textit{ }%
  : Matières premières. Elles produisent à chaque tour les ressources indiquées sur la carte.%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{Cartes grises}%
+}%
 \textit{ }%
  : Produits manufacturés. Elles produisent des ressources plus rares.%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{Cartes bleues}%
+}%
 \textit{ }%
  : Bâtiments civils : Elles rapportent des points de victoire en fin de partie.%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{Cartes rouges}%
+}%
 \textit{ }%
  : Bâtiments Militaires : Augmentent la force Militaire (Boucliers). Permettent de gagner militairement sur ses voisins et de remporter des points de victoire lors des conflits de fin d’Âge.%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{Cartes jaunes}%
+}%
 \textit{ }%
  : Bâtiments commerciaux : Produisent de l’argent et des avantages commerciaux. (Commerce plus avantageux avec les voisins ou production complémentaire de ressources).%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{Cartes violette}%
+}%
 \textit{ }%
  : Guildes : Permettent de gagner des points spéciaux en fin de partie.%
 \item[{-} ]%
 %
  %
+\textcolor{red}{%
 \textbf{Cartes vertes}%
+}%
 \textit{ }%
  : Bâtiments scientifiques : Permettent de marquer des P.V selon le nombre de symboles. Les 2 façons de scorer sont cumulables :%
 \end{description}%
@@ -255,9 +323,12 @@ Il y a 3 actions possibles avec cette carte :%
 \end{itemize}
 
 %
+\sectionfont{\color{cyan}}%
+\subsectionfont{\color{cyan}}%
+\subsubsectionfont{\color{cyan}}%
 \section{ Fin de partie}%
 \label{sec:Findepartie}%
-\rule{18cm}{0.07cm}\break%
+\textcolor{cyan}{\rule{18cm}{0.07cm}}\break%
 La partie se termine à la fin du 3ème Âge. Comptez vos points de victoire. Le joueur en possédant le plus, remporte la partie :%
 \begin{enumerate}%
 \item%
@@ -269,7 +340,7 @@ La partie se termine à la fin du 3ème Âge. Comptez vos points de victoire. Le
 \item%
 %
  Points de victoire des différentes combinaisons des Bâtiments %
-\textbf{\textit{scientifiques}}%
+\textcolor{cyan}{\textbf{\textit{scientifiques}}}%
 .%
 \end{enumerate}%
 Rajoutez les points de victoires indiqués sur :%
